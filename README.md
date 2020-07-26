@@ -7,8 +7,16 @@ How to add to your project
 
 Add this to your gradle file and sync
 ```groovy
+
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+
 dependencies {
-    implementation ''
+    implementation 'com.github.gbksoft:android-error-parser:v1.0.0
 }
 ```
 Usage
