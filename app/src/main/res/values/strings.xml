@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Error Parser</string>
+    <string name="temperature">%1$s°C</string>
+    <string name="location_permission_rejected">Location permission rejected</string>
+    <string name="location_unavailable">Location unavailable</string>
+    <string name="outside_temperature">Outside temperature is %s</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="unauthorized">You are unauthorized. It is default handling for 401 error in all requests</string>
+    <string name="btn_default">Request with default 401 error parser and handler</string>
+    <string name="btn_custom">Request with custom 401 error parser and handler</string>
+    <string name="btn_default_parser">Request with default 401 parser but custom handler</string>
+    <string name="btn_valid">Make valid request</string>
+</resources>
